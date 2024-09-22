@@ -21,22 +21,26 @@
 }
 
 .header-nav-item:is(:hover, :focus) {
-    animation: wobble;
+    animation: pulse;
     /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
+    animation-duration: 1s;
     /* don't forget to set a duration! */
 }
 
 .header-nav-link:is(:hover, :focus) {
-    animation: wobble;
+    animation: pulse;
     /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 2s;
+    animation-duration: 1s;
     /* don't forget to set a duration! */
 }
 
 
 .header-logo {
     margin-right: auto;
+}
+
+.studio {
+    color: $--main-color;
 }
 
 .header-nav-list {
@@ -133,12 +137,4 @@
     transform: scaleX(1);
 
     transition: transform var(--duration) var(--cubic);
-}
-
-.studio {
-    color: #000000;
-}
-
-.header-logo {
-    color: #2196f3;
 }
