@@ -1,6 +1,7 @@
 .examples {
     text-align: center;
-    margin-top: 250px;
+    // margin-top: 250px;
+    margin-bottom: 94px;
 }
 
 .examples-list {
@@ -28,6 +29,12 @@
     display: flex;
     position: relative;
 }
+
+/* .position-element {
+  position: absolute;
+  bottom: 30px;
+  left: 107px;
+} */
 
 .example-item-wrapp-text {
     position: absolute;
