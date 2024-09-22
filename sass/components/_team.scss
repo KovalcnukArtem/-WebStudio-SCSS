@@ -1,11 +1,18 @@
+.team {
+    height: 708px;
+    width: 1600px;
+    margin: auto;
+    background-color: #F5F4FA;
+}
+
 .team-flex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 600px;
-    width: 1600px;
-    background-color: #F5F4FA;
+    
+    background-color: var(--team-color);
 }
 
 .team-list {
