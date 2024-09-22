@@ -1,4 +1,9 @@
+@import "./utils/base";
+@import "./utils/container";
+@import "./utils/fonts";
+@import "./utils/modal";
 @import "./utils/normalize";
+@import "./utils/variables";
 
 @import "./components/header";
 
@@ -16,8 +21,5 @@
 
 @import "./components/portfolio";
 
-@import "./components/modal";
 
-@import "./components/fonts";
 
-@import "./components/container"
