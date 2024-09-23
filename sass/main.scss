@@ -1,9 +1,10 @@
+@import "./utils/fonts";
+@import "./utils/variables";
 @import "./utils/base";
 @import "./utils/container";
-@import "./utils/fonts";
 @import "./utils/modal";
 @import "./utils/normalize";
-@import "./utils/variables";
+
 
 @import "./components/header";
 
@@ -20,6 +21,5 @@
 @import "./components/footer";
 
 @import "./components/portfolio";
-
 
 
